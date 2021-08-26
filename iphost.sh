@@ -1,5 +1,5 @@
 #!/bin/bash
-$1
+x=$1
 ciscourl=`cat $1 `
 for url in $ciscourl
 do
